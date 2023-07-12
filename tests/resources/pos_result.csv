@@ -1,0 +1,6 @@
+,token,lemma,pos,dep,head,head_lemma,head_pos,head_head,head_head_lemma,head_head_pos,frekv
+2017,:,:,PUNCT,punct,Sallum,sallum,NOUN,in,in,ADJ,4
+2141,;,;,PUNCT,punct,3,3,NUM,bygger,bygge,VERB,4
+7435,og,og,CCONJ,cc,tredsindstyve,tredsindstyve,VERB,Børn,Børn,NOUN,4
+1499,.,.,PUNCT,punct,Thi,Thi,NOUN,Thi,Thi,NOUN,3
+1196,",",",",PUNCT,punct,Børn,Børn,NOUN,Portnerne,Portnerne,NOUN,3
