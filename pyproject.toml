@@ -2,7 +2,7 @@
 name = "dhlab_toolkit"
 version = "0.1.0"
 description = ""
-authors = ["Lars Magne Tungland <larsmtungland@gmail.com>"]
+authors = ["Nasjonalbiblioteket, dhlab@nb.no"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
