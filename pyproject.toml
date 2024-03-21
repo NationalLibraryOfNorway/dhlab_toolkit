@@ -2,7 +2,7 @@
 name = "dhlab_toolkit"
 version = "0.1.0"
 description = ""
-authors = ["Nasjonalbiblioteket, dhlab@nb.no"]
+authors = ["Nasjonalbiblioteket  <dhlab@nb.no>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -12,6 +12,8 @@ requests = "^2.31.0"
 pytest = "^7.4.0"
 matplotlib = "^3.7.2"
 seaborn = "^0.12.2"
+phonetisaurus = "^0.3.0"
+google-cloud-storage = "^2.16.0"
 
 
 [tool.poetry.group.dev.dependencies]
