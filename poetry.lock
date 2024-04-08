@@ -306,6 +306,17 @@ test = ["Pillow", "contourpy[test-no-images]", "matplotlib"]
 test-no-images = ["pytest", "pytest-cov", "pytest-xdist", "wurlitzer"]
 
 [[package]]
+name = "convert-pa"
+version = "0.1.0"
+description = "Package to convert between transcription standards"
+optional = false
+python-versions = ">=3.10,<4.0"
+files = [
+    {file = "convert_pa-0.1.0-py3-none-any.whl", hash = "sha256:5640540f8b6ffd5a0faaadf2dee74f51eb7110a27deae2c949ceb974826cd301"},
+    {file = "convert_pa-0.1.0.tar.gz", hash = "sha256:b1c2d67638ca331c2e2e87e5b7e31932a36bfe50398a324eb2e72bbf1d19a136"},
+]
+
+[[package]]
 name = "cycler"
 version = "0.12.1"
 description = "Composable style cycles"
@@ -1809,4 +1820,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "7fb66eb4f0679948ec1dbad113624156cba9e82e1be1a8c978d6af8277b49462"
+content-hash = "afa98756764b36e6c3ba3314b05769bbe6548c1320a1048c14bf46a84f08ac1a"

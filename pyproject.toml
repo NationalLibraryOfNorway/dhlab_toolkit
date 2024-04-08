@@ -14,6 +14,7 @@ matplotlib = "^3.7.2"
 seaborn = "^0.12.2"
 phonetisaurus = "^0.3.0"
 google-cloud-storage = "^2.16.0"
+convert-pa = "^0.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
