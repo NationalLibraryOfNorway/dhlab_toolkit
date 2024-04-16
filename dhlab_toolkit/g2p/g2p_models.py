@@ -41,17 +41,24 @@ def download_g2p_model(dialect='e', style= "written"):
     logging.debug(f"Path to the G2P model: {download_path}.")
     return download_path
 
-def format_transcription(word, pronunciation):
-    return word, " ".join(pronunciation)
+def format_transcription(pronunciation):
+    return " ".join(pronunciation)
 
 def transcribe(text, dialect='e', style= "written"):
     """
     Transcribe a text of whitespace-separated words using a pre-trained g2p model.
     """
     words= text.split()
+    transcriptions = transcribe_words(words, dialect=dialect, style=style)
+    return [(word, format_transcription(pron)) for word, pron in transcriptions]
+
+def transcribe_words(words, dialect='e', style= "written"):
+    """
+    Transcribe a list of words using a pre-trained g2p model.
+    """
     model_path = download_g2p_model(dialect=dialect, style=style)
     transcriptions = phonetisaurus.predict(words, model_path = model_path)
-    return [format_transcription(word, pron) for word, pron in transcriptions]
+    return transcriptions
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
