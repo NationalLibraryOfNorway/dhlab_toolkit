@@ -1,6 +1,6 @@
 import pandas as pd
 
-from dhlabtk.parse import NER, POS
+from dhlab import NER, POS
 
 test_urn = "URN:NBN:no-nb_digibok_2021042748505"
 
